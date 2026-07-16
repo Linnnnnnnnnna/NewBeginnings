@@ -87,7 +87,7 @@ public class NewBeginnings : Mod
                 int x = reader.ReadInt16();
                 int y = reader.ReadInt16();
 
-                if (x > 0 && y > 0)
+                if (x > 0 && y > 0 && (player.SpawnX == -1 || player.SpawnY == -1))
                     PlayerBackgroundPlayer.ActuallySetSpawn(player, new Point16(x, y));
             }
         }

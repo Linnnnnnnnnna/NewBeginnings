@@ -1,2 +1,2 @@
-1.2.1.9
-- Updated Chinese localization
+1.2.1.10
+- Fixed manually set spawns (such as Beds) not being respected by origins with custom spawns in multiplayer
